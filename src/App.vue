@@ -2,18 +2,23 @@
   <v-app>
     <v-app-bar
       app
-      color="gray"
+      color="light-gray"
       dark
     >
       <div class="d-flex align-center">
         <v-img
-          alt="Asshats lo"
+          alt="Asshats logo"
           class="shrink mr-2"
           contain
+          herf="/"
           src="https://images.evetech.net/Corporation/98566699_64.png"
           transition="scale-transition"
           width="40"
         />
+      </div>
+      <v-spacer></v-spacer>
+      <div class="d-flex align-center">
+        
       </div>
     </v-app-bar>
 
