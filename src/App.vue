@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar
       app
-      color="light-gray"
+      color="blue-grey darken-3"
       dark
     >
       <div class="d-flex align-center">
@@ -18,13 +18,19 @@
       </div>
       <v-spacer></v-spacer>
       <div class="d-flex align-center">
-        
       </div>
     </v-app-bar>
 
     <v-main>
       <HelloWorld/>
     </v-main>
+
+     <v-footer
+     color="blue-grey darken-4">
+    <v-spacer></v-spacer>
+    <div>&copy; {{ new Date().getFullYear() }}</div>
+
+  </v-footer>
   </v-app>
 </template>
 
