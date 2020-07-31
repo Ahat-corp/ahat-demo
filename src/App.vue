@@ -16,9 +16,21 @@
           width="40"
         />
       </div>
-      <v-spacer></v-spacer>
-      <div class="d-flex align-center">
-      </div>
+      <v-spacer>Asshats</v-spacer>
+
+      <div class="text-center">
+      <v-btn 
+    rounded
+    color="blue"
+    dark
+    >Join</v-btn>
+    <v-btn 
+    rounded
+    color="red" 
+    dark
+    >Login</v-btn>
+  </div>
+  
     </v-app-bar>
 
     <v-main>
@@ -27,8 +39,9 @@
 
      <v-footer
      color="blue-grey darken-4">
+     
     <v-spacer></v-spacer>
-    <div>&copy; {{ new Date().getFullYear() }}</div>
+    <div>&copy; AiDs {{ new Date().getFullYear() }}</div>
 
   </v-footer>
   </v-app>
