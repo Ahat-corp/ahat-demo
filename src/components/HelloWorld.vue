@@ -21,11 +21,12 @@
       </v-col>
       <v-col
         class="mb-5" 
-        cols="12" 
-         
+        cols="12"
       >
-      <h2 class="headline font-weight-bold mb-3">
-        <p>What we do.</p>
+      <div>
+        <br>
+      <h2 class="subheading font-weight-bold mb-5">
+        <p>About us.</p>
       </h2>
         <v-row 
           align="center"
@@ -36,14 +37,17 @@
             <v-card 
               v-for="(whats, i) in whatWe"
               :key="i"
-              class="ma-3 pa-6"
+              class="ma-2 pa-4"
               outlined
-              tile
-              shaow
+              shaped
+              raised
+              elevation="0.30"
               >
               {{ whats.text }}
             </v-card>
         </v-row>
+        <br>
+      </div>
       </v-col>
     </v-row>
   </v-container>
@@ -56,13 +60,22 @@
     data: () => ({
       whatWe: [
         {
-          text: 'We mine! We also have orca boost, and everything',
+          text: 'Mine shit',
         },
         {
-          text: 'We love new and old players! All are welcome!'
+          text: 'Refine shit'
         },
         {
-          text: 'What are in all parts of production form basic T1 all the to T2'
+          text: 'Build shit'
+        },
+        {
+          text: 'Get wreaked in said built shit'
+        },
+        {
+          text: 'Cry a little'
+        },
+        {
+          text:'REPEAT!'
         },
       ],
     }),
