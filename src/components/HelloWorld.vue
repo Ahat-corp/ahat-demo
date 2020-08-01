@@ -5,6 +5,7 @@
         <v-img
           :src="require('../assets/logo.svg')"
           class="my-5"
+          transition="scale-transition"
           contain
           height="300"
         />
@@ -38,6 +39,7 @@
               class="ma-3 pa-6"
               outlined
               tile
+              shaow
               >
               {{ whats.text }}
             </v-card>
@@ -54,7 +56,7 @@
     data: () => ({
       whatWe: [
         {
-          text:  'We mine! We also have orca boost, and everything',
+          text: 'We mine! We also have orca boost, and everything',
         },
         {
           text: 'We love new and old players! All are welcome!'
@@ -62,11 +64,7 @@
         {
           text: 'What are in all parts of production form basic T1 all the to T2'
         },
-
       ],
-
-
-
     }),
   }
 </script>
